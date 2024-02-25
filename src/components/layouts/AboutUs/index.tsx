@@ -1,6 +1,7 @@
-import { BoxContent, Button } from "@/components/atoms";
 import Image from "next/image";
 import React from "react";
+
+import { BoxContent, Button } from "@/components/atoms";
 
 export const AboutUs = () => {
   return (

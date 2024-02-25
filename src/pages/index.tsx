@@ -1,4 +1,4 @@
-import { AboutUs, FeaturePost, HeroSection } from "@/components/layouts";
+import { AboutUs, FeaturePost, HeroSection, OurFeatures } from "@/components/layouts";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <HeroSection />
       <AboutUs />
       <FeaturePost />
+      <OurFeatures />
     </>
   );
 }
