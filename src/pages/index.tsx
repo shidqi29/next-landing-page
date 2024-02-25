@@ -4,6 +4,7 @@ import {
   FeaturePost,
   HeroSection,
   OurFeatures,
+  OurGallery,
 } from "@/components/layouts";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <FeaturePost />
       <OurFeatures />
       <Achievements />
+      <OurGallery />
     </>
   );
 }
