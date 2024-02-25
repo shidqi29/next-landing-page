@@ -5,3 +5,4 @@ export * from "./FeaturePost";
 export * from "./OurFeatures";
 export * from "./Achievements";
 export * from "./OurGallery";
+export * from "./Company";

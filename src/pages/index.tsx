@@ -1,6 +1,7 @@
 import {
   AboutUs,
   Achievements,
+  Company,
   FeaturePost,
   HeroSection,
   OurFeatures,
@@ -16,6 +17,7 @@ export default function Home() {
       <OurFeatures />
       <Achievements />
       <OurGallery />
+      <Company />
     </>
   );
 }
