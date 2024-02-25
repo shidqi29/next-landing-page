@@ -8,12 +8,12 @@ type BoxContentProps = {
 
 export const BoxContent = ({
   children,
-  width = "80%",
+  width = "w-80%",
   className,
 }: BoxContentProps) => {
   return (
     <div
-      className={`bg-main-orange/20 bg-center bg-origin-content p-4 w-[${width}] ${className}`}
+      className={`bg-main-orange/20 bg-center bg-origin-content p-4 ${width} ${className}`}
     >
       {children}
     </div>

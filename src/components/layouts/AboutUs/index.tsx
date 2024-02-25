@@ -4,9 +4,9 @@ import React from "react";
 
 export const AboutUs = () => {
   return (
-    <article className="grid grid-cols-1 place-items-center gap-14 py-10 md:px-12 lg:grid-cols-2 lg:px-24">
+    <article className="grid grid-cols-1 place-items-center gap-14 py-10 md:px-12 lg:grid-cols-2 lg:px-24 lg:pb-24">
       <div className="relative mb-14 lg:mb-0">
-        <BoxContent width="75%">
+        <BoxContent width="w-[75%]">
           <Image
             src="/Rectangle2881.png"
             width={440}
@@ -14,7 +14,10 @@ export const AboutUs = () => {
             alt="Rectangle2881"
           />
         </BoxContent>
-        <BoxContent width="50%" className="absolute -bottom-20 right-0 z-10">
+        <BoxContent
+          width="w-[50%]"
+          className="absolute -bottom-20 right-0 z-10"
+        >
           <Image
             src="/Rectangle2882.png"
             width={330}

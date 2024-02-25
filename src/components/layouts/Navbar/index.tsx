@@ -57,7 +57,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-10 max-h-72 w-full bg-white">
+      <header className="sticky top-0 z-50 max-h-72 w-full bg-white">
         <nav className="flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-x-2">
             <Image
