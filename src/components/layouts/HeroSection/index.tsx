@@ -44,7 +44,7 @@ export const HeroSection = () => {
               alt="Arrow"
               width={155}
               height={59}
-              className="translate-y-1/4 md:absolute md:bottom-0 md:-translate-x-40 md:translate-y-1/3 lg:-translate-x-40 lg:translate-y-1/2"
+              className="translate-y-1/4 overflow-hidden md:absolute md:bottom-0 md:-translate-x-40 md:translate-y-1/3 lg:-translate-x-40 lg:translate-y-1/2"
             />
             <Image src="/donate.svg" alt="Donate" width={144} height={144} />
           </div>
