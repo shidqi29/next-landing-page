@@ -38,7 +38,7 @@ export const Navbar = () => {
 
   const navMobile = () => {
     return (
-      <nav className="absolute left-0 w-full bg-white lg:hidden">
+      <nav className="absolute left-0 w-full bg-white px-6 md:px-12 lg:hidden">
         <ul className="flex flex-col gap-y-1 pb-4 text-lg">
           {navLink.map((link) => (
             <li key={link.name}>
@@ -57,7 +57,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-50 max-h-72 w-full bg-white">
+      <header className="sticky top-0 z-50 max-h-72 w-full bg-white px-6 md:px-12 lg:px-20">
         <nav className="flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-x-2">
             <Image
