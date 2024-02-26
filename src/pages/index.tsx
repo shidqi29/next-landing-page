@@ -1,9 +1,25 @@
+import {
+  AboutUs,
+  Achievements,
+  Company,
+  ConnectUs,
+  FeaturePost,
+  HeroSection,
+  OurFeatures,
+  OurGallery,
+} from "@/components/layouts";
+
 export default function Home() {
   return (
     <>
-      <div className="w-full border border-black">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </div>
+      <HeroSection />
+      <AboutUs />
+      <FeaturePost />
+      <OurFeatures />
+      <Achievements />
+      <OurGallery />
+      <Company />
+      <ConnectUs />
     </>
   );
 }
