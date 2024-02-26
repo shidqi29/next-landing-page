@@ -21,7 +21,7 @@ export const Company = () => {
     },
   ];
   return (
-    <section className="grid grid-cols-1 gap-12 px-8 py-14 md:grid-cols-2 lg:grid-cols-4 lg:px-24">
+    <section className="grid grid-cols-1 place-items-center gap-12 px-8 py-14 md:grid-cols-2 lg:grid-cols-4 lg:px-24">
       {companies.map((company) => (
         <Image
           key={company.alt}
