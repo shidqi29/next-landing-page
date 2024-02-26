@@ -12,10 +12,10 @@ const roboto = Roboto({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Navbar />
       <main
         className={`mx-auto w-full max-w-[1440px] px-6 md:px-12 lg:px-20 ${roboto.className}`}
       >
-        <Navbar />
         <Component {...pageProps} />
       </main>
       <Footer />
