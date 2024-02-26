@@ -54,8 +54,8 @@ export const OurFeatures = () => {
             <h4 className="text-xl font-bold">{feature.title}</h4>
             <p className="text-sm text-black/70">{feature.subtitle}</p>
             <ol className="list-inside list-decimal font-medium">
-              {feature.mission.map((mission) => (
-                <li key={mission}>{mission}</li>
+              {feature.mission.map((mission, index) => (
+                <li key={index}>{mission}</li>
               ))}
             </ol>
           </div>

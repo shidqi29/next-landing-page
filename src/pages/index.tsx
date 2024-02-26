@@ -2,6 +2,7 @@ import {
   AboutUs,
   Achievements,
   Company,
+  ConnectUs,
   FeaturePost,
   HeroSection,
   OurFeatures,
@@ -18,6 +19,7 @@ export default function Home() {
       <Achievements />
       <OurGallery />
       <Company />
+      <ConnectUs />
     </>
   );
 }
