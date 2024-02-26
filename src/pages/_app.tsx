@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import { Roboto } from "next/font/google";
 
-import { Navbar } from "@/components/layouts";
+import { Footer, Navbar } from "@/components/layouts";
 import "@/styles/globals.css";
 
 const roboto = Roboto({
@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Navbar />
         <Component {...pageProps} />
       </main>
+      <Footer />
     </>
   );
 }

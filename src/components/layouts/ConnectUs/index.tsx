@@ -28,7 +28,7 @@ export const ConnectUs = () => {
   };
 
   return (
-    <article className="grid grid-cols-1 place-items-center gap-24 py-10 lg:grid-cols-2">
+    <article className="grid grid-cols-1 place-items-center gap-24 py-12 lg:grid-cols-2">
       <figure>
         <Image src="/pana.svg" alt="pana" width={300} height={300} />
       </figure>
